@@ -9,14 +9,48 @@ El LCD(Liquid Crystal Dysplay) o pantalla de cristal líquido es un dispositivo 
 El LCD consta de 16 terminales las cuales podemos dividir en pines de alimentación, control y bus de datos bidireccional. Por lo general podemos encontrar ademas en su estructura los pines de Anodo de led backlight y cátodo de led backlight.
 
 #### Pines de alimentación
-\begin{table}[]
-\begin{tabular}{lllll}
-Pin & Descipcion                                                                                                                                    &  &  &  \\
-Vss & Gnd                                                                                                                                           &  &  &  \\
-Vdd & +5 voltios                                                                                                                                    &  &  &  \\
-Vee & \begin{tabular}[c]{@{}l@{}}corresponde al pin de \\ contraste, lo regularemos \\ con un potenciómetro de \\ 10K conectado a Vdd.\end{tabular} &  &  & 
-\end{tabular}
-\end{table}
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky">Pin</th>
+    <th class="tg-0pky">Descipcion</th>
+    <th class="tg-0pky"></th>
+    <th class="tg-0pky"></th>
+    <th class="tg-0pky"></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">Vss</td>
+    <td class="tg-0pky">Gnd</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Vdd</td>
+    <td class="tg-0pky">+5 voltios</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Vee</td>
+    <td class="tg-0pky">corresponde al pin de <br>contraste, lo regularemos <br>con un potenciómetro de <br>10K conectado a Vdd.</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+</tbody>
+</table>
 
 #### Pines de control
 
