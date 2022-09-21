@@ -160,8 +160,6 @@ void loop()
 
 {
 
-
-
 }
 
  
@@ -169,5 +167,17 @@ void loop()
  
 
 Lo que nos muestra el display:
-   ![5_49703049-49f2-4e17-8212-95e98ee98ed6_large](https://user-images.githubusercontent.com/104939556/191604401-34eec7e3-5d60-4a9b-bb88-94335fb3b7c7.jpg)
 
+  
+![5_49703049-49f2-4e17-8212-95e98ee98ed6_large](https://user-images.githubusercontent.com/104939556/191604401-34eec7e3-5d60-4a9b-bb88-94335fb3b7c7.jpg)
+  
+  
+  
+### Imagen sin modulo I2C
+  
+  ![SINMODULO](https://user-images.githubusercontent.com/104939556/191604902-a438f487-8120-47ec-9564-21033556d11f.JPG)
+
+### Imagen con modulo I2C
+  
+
+![OIPmoduloi2c](https://user-images.githubusercontent.com/104939556/191604735-f45da150-956a-42f8-8fcb-dc881a2817f4.jpg)
