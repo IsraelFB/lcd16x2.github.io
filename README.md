@@ -10,8 +10,10 @@ El LCD consta de 16 terminales las cuales podemos dividir en pines de alimentaci
 
 #### Pines de alimentación
 
-°Vss: Gnd
-°Vdd: +5 voltios
+°Vss: Gnd.
+
+°Vdd: +5 voltios.
+
 °Vee: corresponde al pin de contraste, lo regularemos con un potenciómetro de 10K conectado a Vdd.
 
 #### Pines de control
