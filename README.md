@@ -95,14 +95,42 @@ Para hacer uso del conjunto se hace necesaria la librería “Wire.h”, que nos
 Los pines a conectar en este conjunto son:
 
  
-
-VCC  = Alimentación de 5 Voltios
-
-GND  = Referencia negativa
-
-SDA = Pin de datos
-
-SCL = Pin de señal de reloj 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-fymr">Pin</th>
+    <th class="tg-fymr">Descipcion</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">vcc</td>
+    <td class="tg-c3ow">Alimentación de 5 Voltios</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">GND</td>
+    <td class="tg-c3ow">Referencia negativa</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">SCL</td>
+    <td class="tg-baqh">Pin de señal de reloj</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">SDA</td>
+    <td class="tg-c3ow">Pin de datos<br></td>
+  </tr>
+</tbody>
+</table>
 
  
 
