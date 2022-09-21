@@ -233,3 +233,18 @@ Lo que nos muestra el display:
   
 
 ![OIPmoduloi2c](https://user-images.githubusercontent.com/104939556/191604735-f45da150-956a-42f8-8fcb-dc881a2817f4.jpg)
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ## Bibliografia:
+  
+  https://www.arcaelectronica.com/blogs/tutoriales/display-lcd-16x2-con-modulo-i2c
+  
+  
+  https://www.ingmecafenix.com/electronica/lcd/
