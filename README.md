@@ -22,32 +22,20 @@ El LCD consta de 16 terminales las cuales podemos dividir en pines de alimentaci
   <tr>
     <th class="tg-0pky">Pin</th>
     <th class="tg-0pky">Descipcion</th>
-    <th class="tg-0pky"></th>
-    <th class="tg-0pky"></th>
-    <th class="tg-0pky"></th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td class="tg-0pky">Vss</td>
     <td class="tg-0pky">Gnd</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
   </tr>
   <tr>
     <td class="tg-0pky">Vdd</td>
     <td class="tg-0pky">+5 voltios</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
   </tr>
   <tr>
     <td class="tg-0pky">Vee</td>
     <td class="tg-0pky">corresponde al pin de <br>contraste, lo regularemos <br>con un potenciómetro de <br>10K conectado a Vdd.</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
   </tr>
 </tbody>
 </table>
