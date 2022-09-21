@@ -22,3 +22,7 @@ El LCD consta de 16 terminales las cuales podemos dividir en pines de alimentaci
 
 °RW: Corresponde al pin de Escritura(0) o de Lectura(1). Nos permite escribir un dato en la pantalla o leer un dato desde la pantalla.
 E: Corresponde al pin Enable o de habilitación. Si E(0) esto quiere decir que el LCD no está activado para recibir datos, pero si E(1) se encuentra activo y podemos escribir o leer desde el LCD.
+
+![Bus-de-datos-lcd](https://user-images.githubusercontent.com/104939556/191602656-e848b801-839d-4a8f-a805-304a5c81b91c.jpg)
+
+
