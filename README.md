@@ -52,3 +52,122 @@ lcd_putc(«\n Mecafenix»);
   
   Imagen del circuito en proteus:
 ![Tutorial-lcd](https://user-images.githubusercontent.com/104939556/191602931-3e8b40fe-5103-4a79-ba6e-d0b07cc36c3c.jpg)
+  
+  
+  
+  ### DISPLAY LCD 16X2 CON MÓDULO I2C
+  
+El I2C es un bus de comunicaciones que usa 2 líneas para enviar y recibir información y 2 más para alimentación. La gran cantidad de pines que tiene el display LCD 16x2 (16  pines) hace  necesario en algunas ocasiones que tenga incorporado (o incorporarle) un módulo para permitir la comunicación por I2C ya que con este necesita sólo 4 pines para funcionar.
+
+El conjunto cuenta algunas ventajas más respecto al display por sí solo, como un pequeño potenciómetro para regular el contraste de la pantalla y la posibilidad de imprimir algunos caracteres especiales.
+
+Para hacer uso del conjunto se hace necesaria la librería “Wire.h”, que nos permite la comunicación por I2C y la librería “LiquidCristal_I2C.h” que controla el display. 
+  
+  A continuación te facilitamos el enlace para que descargues la librería:
+  https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library
+
+ 
+
+Los pines a conectar en este conjunto son:
+
+ 
+
+VCC  = Alimentación de 5 Voltios
+
+GND  = Referencia negativa
+
+SDA = Pin de datos
+
+SCL = Pin de señal de reloj 
+
+ 
+
+Esquema de conexión en Arduino UNO:
+  
+  ![LCD-01_large](https://user-images.githubusercontent.com/104939556/191604267-dda6bb5e-9812-424a-9fbb-7fa3f8760f35.jpg)
+
+  
+  Nota:
+
+Depende la versión del display también se conecta así:
+
+
+SDA = A4
+
+
+
+
+SCL = A5
+
+
+Código:
+
+ 
+
+#include <Wire.h> // Esta Librería es la que permite la comunicacion por I2C
+
+#include <LiquidCrystal_I2C.h> //Esta es la librería controladora del LCD propiamente
+
+ 
+
+LiquidCrystal_I2C lcd(0x3F, 16, 2); // (Direccion del display, Número de columnas del LCD, Número de filas del LCD)
+
+ 
+
+void setup()
+
+{
+
+  lcd.init(); //Inicializamos el LCD
+
+ 
+
+  lcd.backlight(); // Con este comando encendemos la luz de fondo
+
+ 
+
+  lcd.setCursor(6, 0); //debemos ubicar el cursor antes de escribir así: (columna donde empieza, fila donde empieza)
+
+ 
+
+  lcd.print("Arca"); // Escribimos la primera palabra
+
+ 
+
+  lcd.setCursor(3, 1); // Ubicamos el cursor en la fila de abajo
+
+ 
+
+  lcd.print("Electronica"); // Escribimos la segunda palabra
+
+ 
+
+  delay(5000); // Esperamos 5 segundos
+
+ 
+
+  lcd.clear(); // comando para borrar el display
+
+ 
+
+  lcd.noBacklight(); // comando para apagar la luz de fondo
+
+}
+
+ 
+
+void loop()
+
+{
+
+
+
+}
+
+ 
+
+ 
+
+Lo que nos muestra el display:
+   ![5_49703049-49f2-4e17-8212-95e98ee98ed6_large](https://user-images.githubusercontent.com/104939556/191604401-34eec7e3-5d60-4a9b-bb88-94335fb3b7c7.jpg)
+
