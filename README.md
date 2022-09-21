@@ -9,10 +9,15 @@ El LCD(Liquid Crystal Dysplay) o pantalla de cristal líquido es un dispositivo 
 El LCD consta de 16 terminales las cuales podemos dividir en pines de alimentación, control y bus de datos bidireccional. Por lo general podemos encontrar ademas en su estructura los pines de Anodo de led backlight y cátodo de led backlight.
 
 #### Pines de alimentación
+\begin{table}[]
+\begin{tabular}{lllll}
+ & Vss &  & Gnd &  \\
+ & Vdd &  & +5 voltios &  \\
+ &  &  &  &  \\
+ &  &  &  & 
+\end{tabular}
+\end{table}
 
-°Vss: Gnd.
-
-°Vdd: +5 voltios.
 
 °Vee: corresponde al pin de contraste, lo regularemos con un potenciómetro de 10K conectado a Vdd.
 
