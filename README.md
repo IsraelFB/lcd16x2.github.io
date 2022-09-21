@@ -25,4 +25,30 @@ E: Corresponde al pin Enable o de habilitación. Si E(0) esto quiere decir que e
 
 ![Bus-de-datos-lcd](https://user-images.githubusercontent.com/104939556/191602656-e848b801-839d-4a8f-a805-304a5c81b91c.jpg)
 
+#### Programa Ccs compiler
 
+
+
+#include <18f4550 .h=»»> //incluimos el pic a utilizar
+#fuses hs,nowdt,noprotect,nolvp  //fusibles
+#use delay(clock=20000000) //Cristal de cuarzo de 20Mhz
+#include <lcd .c=»»> //incluimos la libreria del lcd 
+
+void main() //funcion principal
+{
+delay_ms(25);
+lcd_init(); //iniciamos el lcd 
+
+
+for(;;) //se queda ciclado el programa
+{
+delay_ms(100);
+lcd_putc(«\f Ingenieria»);
+lcd_putc(«\n Mecafenix»);
+}
+  
+  
+  
+  
+  Imagen del circuito en proteus:
+![Tutorial-lcd](https://user-images.githubusercontent.com/104939556/191602931-3e8b40fe-5103-4a79-ba6e-d0b07cc36c3c.jpg)
