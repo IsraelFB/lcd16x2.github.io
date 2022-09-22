@@ -78,6 +78,8 @@ lcd_putc(«\n Mecafenix»);
 ![Tutorial-lcd](https://user-images.githubusercontent.com/104939556/191602931-3e8b40fe-5103-4a79-ba6e-d0b07cc36c3c.jpg)
   
   
+  Programa ejemplo en el simulador:
+  https://wokwi.com/projects/343461815639867987
   
   ### DISPLAY LCD 16X2 CON MÓDULO I2C
   
