@@ -246,7 +246,7 @@ Lo que nos muestra el display:
   
   ## Bibliografia:
   
-  Arrieta, V. (2018, 18 diciembre). DISPLAY LCD 16X2 CON MÓDULO I2C. www.arcaelectronica.com. Recuperado 21 de septiembre de 2022, de https://www.arcaelectronica.com/blogs/tutoriales/display-lcd-16x2-con-modulo-i2c
+  Arrieta, V. (2018, 18 diciembre). DISPLAY LCD 16X2 CON MÓDULO I2C. arcaelectronica Recuperado 21 de septiembre de 2022, de https://www.arcaelectronica.com/blogs/tutoriales/display-lcd-16x2-con-modulo-i2c
   
   Mecafenix, I. (2022, 15 junio). ¿Qué es un LCD de 16×2? Ingeniería Mecafenix. Recuperado 21 de septiembre de 2022, de https://www.ingmecafenix.com/electronica/lcd/
   
